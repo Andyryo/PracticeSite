@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+/* 共通インナー */
+.common-inner{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+
+/* ヘッダーブロック */
+
+.page-header{
+    background-color: #008000;
+}
+
+.page-header__inner{
+    padding: 24px 0;
+}
+
+.page-header__title{
+    color: #fff;
+    /* line-heightを1.0に指定すると上下に余計な隙間を与えない */
+    line-height: 1.0;
+    font-weight: normal;
+}
+
+.page-header__title .large{
+    font-size: 3.2rem;
+}
+
+.page-header__title .small{
+    font-size: 2rem;
+}
+
+.page-header__main-visual img{
+    width: 100%;
+}
+
+/* メインブロック */
+.section-header{
+    margin-bottom: 30px;
+}
+
+.section-header__title{
+    line-height: 1;
+    font-weight: 600;
+}
+
+.section-header__title .large{
+    font-size: 3.6rem;
+}
+
+.section-header__title .small{
+    font-size: 2.4rem;
+}
+
+.work-list{
+    margin-bottom: 50px;
+}
+
+.work-list__item:not(:last-child){
+    margin-bottom: 30px;
+}
+
+
+
+/*  */
+.second-pages{
+    line-height: 1.0;
+    text-align: center;
+    font-weight: 600;
+}
+
+.second-pages a{
+    color: #99cc99;
+}
+
+.second-pages .large{
+    font-size: 2.4rem;
+}
+
+.second-pages .small{
+    font-size: 1.6rem;
+}
+
+/* 写真＋テキストのブロック */
+.photo-work{
+    display: flex;
+}
+.photo-work__image{
+    width: 540px;
+    /* height: 360px; */
+    margin-right: 20px; 
+}
+.photo-work__text{
+    font-size: 1.6rem; /*ルート(html)要素の1.6倍*/
+}
+
